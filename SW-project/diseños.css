@@ -10,7 +10,7 @@ html{
 }
 
 header {
-    background-color: #70b980;
+    background-color: #7109c1;
     padding: 20px;
     color: white;
     display: flex; 
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 footer {
-    background-color: #70b980;
+    background-color: #ad1a9e;
     color: white;
     padding: 20px;
     text-align: center;
@@ -71,7 +71,7 @@ footer {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #701cdd;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@ footer {
 }
 
 .boton:hover {
-    background-color: #45a049;
+    background-color: #b51cbd;
 }
 
 /* Carrusel */
@@ -137,7 +137,7 @@ footer {
     width: 100%;
     bottom: -100%;
     padding: 10px;
-    background-color: #70b980;
+    background-color: #6f10bd;
     color: #fff;
     transition: .5s;
     box-sizing: border-box;
@@ -149,7 +149,7 @@ footer {
 
 /* Detalle del Producto*/
 #detalle-producto {
-    background-color: #70b980;
+    background-color: #8420cc;
     border-radius: 5px;
     max-width: 1100px;
     margin: auto;
@@ -211,7 +211,7 @@ footer {
 }
 
 .producto-detalle button {
-    background-color: #70b980;
+    background-color: #5a1bc7;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -222,7 +222,7 @@ footer {
 }
 
 .producto-detalle button:hover {
-    background-color: #5e9c68;
+    background-color: #1b5998;
 }
 
 .body2 {

@@ -1,0 +1,63 @@
+.titulo{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255); /*Linea debajo del titulo*/
+    color: white; 
+    margin-bottom: 5px;
+}
+
+/* Estilo para el contenedor del detalle del empleado */
+.detalle-empleado {
+    background-color: #70b980;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    margin-top: 50px; /* Separación de 100px desde la parte superior */
+    position: relative; /* Cambio de posición */
+}
+
+/* Estilo para los elementos de detalle (nombre, correo, rol, status) */
+.detalle-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+.img {
+    max-width: 25px; /* Tamaño máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.detalle-bienve {
+    margin-bottom: 10px;
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+
+.btn-regresar:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el botón de regresar */
+.btn-regresar {
+    background-color: #70b980;
+    color: white;
+    padding: 3px 20px;
+}
+
+.promo {
+    width: 600px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    position: relative; /* Establece el contexto de posición para el contenido interno */
+}
+
+.promo img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    position: absolute; /* Posiciona la imagen de forma absoluta dentro del contenedor */
+    top: 50%; /* Desplaza la imagen hacia abajo un 50% de la altura del contenedor */
+    left: 50%; /* Desplaza la imagen hacia la derecha un 50% del ancho del contenedor */
+    transform: translate(-50%, -50%); /* Centra la imagen horizontal y verticalmente */
+}
+

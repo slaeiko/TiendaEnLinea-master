@@ -1,0 +1,24 @@
+/* Estilo para el menú */
+.menu {
+    background-color: #70b980;
+    position: fixed; /* Fijar el menú en la parte superior */
+    top: 0; /* Colocar el menú en la parte superior */
+    left: 0; 
+    width: 100%; 
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    z-index: 9999;  /*Asegurarse de que el menú esté por encima de todo */
+}
+
+.menu-item {
+    display: inline-block; /* Mostrar los elementos en línea */
+    margin-right: 20px; 
+    font-size: 18px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu-item:hover {
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+    background-color: #45a049; /* Cambiar el color de fondo al pasar el ratón */
+}

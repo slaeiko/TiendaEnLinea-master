@@ -1,0 +1,44 @@
+.separacion_menu{
+    margin-top: 50px; /* Separación de 100px desde la parte superior */
+    position: relative; /* Cambio de posición */
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 10px;
+}
+
+.empleado {
+    background-color: #70b980;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc; /* Línea para remarcar las filas */
+}
+
+.empleado div {
+    padding: 5px;
+}
+
+.id {
+    flex: 1;
+}
+
+.nombre {
+    flex: 1;
+}
+
+.correo {
+    flex: 1;
+}
+
+.rol {
+    flex: 1;
+}
+
+.accion {
+    flex: 1;
+    text-align: center;
+}

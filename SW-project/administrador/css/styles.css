@@ -8,7 +8,7 @@
 
 /* Estilo para el contenedor del detalle del empleado */
 .detalle-empleado {
-    background-color: #de13de;
+    background-color: #3498db;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px; 
@@ -33,14 +33,13 @@
     color: #fff; /* Cambiar el color del texto a blanco */
 }
 
-
 .btn-regresar:hover {
-    background-color: #ac0c8c;
+    background-color: #2980b9;
 }
 
 /* Estilo para el botón de regresar */
 .btn-regresar {
-    background-color: #b5049d;
+    background-color: #3498db;
     color: white;
     padding: 3px 20px;
 }

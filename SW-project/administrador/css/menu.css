@@ -1,6 +1,6 @@
 /* Estilo para el menú */
 .menu {
-    background-color: #7e70b9;
+    background-color: #34495e;
     position: fixed; /* Fijar el menú en la parte superior */
     top: 0; /* Colocar el menú en la parte superior */
     left: 0; 
@@ -20,5 +20,5 @@
 
 .menu-item:hover {
     color: #fff; /* Cambiar el color del texto al pasar el ratón */
-    background-color: #bc19a1; /* Cambiar el color de fondo al pasar el ratón */
+    background-color: #2c5aa0; /* Cambiar el color de fondo al pasar el ratón */
 }

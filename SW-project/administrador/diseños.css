@@ -10,7 +10,7 @@ html{
 }
 
 header {
-    background-color: #a00d5e;
+    background-color: #2c5aa0;
     padding: 20px;
     color: white;
     display: flex; 
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 footer {
-    background-color: #a40bbc;
+    background-color: #1e4080;
     color: white;
     padding: 20px;
     text-align: center;
@@ -71,7 +71,7 @@ footer {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #b71754;
+    background-color: #3498db;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@ footer {
 }
 
 .boton:hover {
-    background-color: #b00c71;
+    background-color: #2980b9;
 }
 
 /* Carrusel */
@@ -137,7 +137,7 @@ footer {
     width: 100%;
     bottom: -100%;
     padding: 10px;
-    background-color: #481aa2;
+    background-color: #34495e;
     color: #fff;
     transition: .5s;
     box-sizing: border-box;
@@ -149,7 +149,7 @@ footer {
 
 /* Detalle del Producto*/
 #detalle-producto {
-    background-color: #3c0dac;
+    background-color: #3498db;
     border-radius: 5px;
     max-width: 1100px;
     margin: auto;
@@ -211,7 +211,7 @@ footer {
 }
 
 .producto-detalle button {
-    background-color: #70b980;
+    background-color: #27ae60;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -222,7 +222,7 @@ footer {
 }
 
 .producto-detalle button:hover {
-    background-color: #9f199f;
+    background-color: #229954;
 }
 
 /*Correo*/
@@ -258,13 +258,13 @@ input, textarea, button {
     font-size: 16px;
 }
 button {
-    background-color: #5621bf;
+    background-color: #3498db;
     color: white;
     border: none;
     cursor: pointer;
 }
 button:hover {
-    background-color: #205ccc;
+    background-color: #2980b9;
 }
 .message {
     font-size: 18px;
